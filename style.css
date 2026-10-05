@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* .container {
+    width:50%;
+    margin-bottom: 0;
+    padding: 0;
+}
+.container img{
+ 
+display: flex;
+padding :20px;
+box-sizing: border-box;
+box-shadow: inset;
+}
+.container h1,h5 {
+text-align: center;
+margin: 0%;
+padding:0%
+
+} */
+.form {
+background: skyblue;
+color: gray;
+}
+#product {
+    width: 45%;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+#product .container {
+    /* background: cyan; */
+    width: 25%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+#product .container .card {
+    /* background: #ff0000; */
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px var(--gray-color);
+    padding: 5px;
+
+
+    width: 100%;
+}
+
+#product .container .card img {
+    width: 45%;
+    border-radius: 5px;
+}
+
+#product .container .card .details {
+
+    padding: 5px;
+
+}
+
+#product .container .card .deatils .small {
+
+    font-weight: bold;
+    /* color: var(--gray-color) */
+}
+
+#prodoct .container .card .deatils h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+#product .container .card .details p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--red-color);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    color: #ff69b4;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.button {
+    display: inline-block;
+    background: #111;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.brands {
+    padding: 50px;
+    text-align: center;
+}
+
+.brands h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.brand-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.brand-card {
+    background: white;
+    padding: 35px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.brand-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.brand-card p {
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.brand-card button {
+    background: #111;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.brand-card button:hover {
+    background: #ff69b4;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .brand-container {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
